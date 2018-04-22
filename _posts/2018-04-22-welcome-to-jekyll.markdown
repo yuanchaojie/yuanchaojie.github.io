@@ -4,15 +4,15 @@ title:  "Welcome to Jekyll!"
 date:   2018-04-22 11:36:38 +0800
 categories: jekyll update
 ---
-##自定义 jekyll site
+## 自定义 jekyll site
 * 在配置（_config.yml）文件中 修改title、email、description 等信息
 
 
 ## 以下部分文档jekyll自带的说明部分
-###编辑完重启服务器
+### 编辑完重启服务器
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-###自己写的blog需要按照 “YYYY-MM-DD-name-of-post.ext ” 格式放在_posts下
+### 自己写的blog需要按照 “YYYY-MM-DD-name-of-post.ext ” 格式放在_posts下
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
 Jekyll also offers powerful support for code snippets:
