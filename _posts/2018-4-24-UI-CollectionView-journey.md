@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "UICollectionView 使用"
+---
+
 UICollectionView使用
 
 > [NSCollectionViewFlowLayout 官方文档](https://developer.apple.com/documentation/appkit/nscollectionviewflowlayout?language=objc)
