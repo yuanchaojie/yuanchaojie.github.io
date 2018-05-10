@@ -24,7 +24,7 @@ github_username:  yuanchaojie
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-architect
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 port: 8080
