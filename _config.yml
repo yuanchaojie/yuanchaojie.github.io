@@ -13,20 +13,34 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Trying to see better yourself
+title: YCJ
+subtitle: Trying to see better yourself
 email: yuanchaojie07@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  YCJ is 码农（iOS 、小程序）一枚、 哈士奇铲屎官、歌唱爱好者 
+description: 
+  嗨，我是YCJ ，北京 iOS 从业人员。 擅长iOS 、小程序。 哈士奇铲屎官、歌唱爱好者  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  yuanchaojie
+
+# The blog button should not be removed.
+blog_button:
+    title: Blog
+    description: Visit blog
+# Comment
+comment:
+    disqus: vno-jekyll
+
+# Pagination
+paginate: 10
+paginate_path: "/blog/page/:num/"
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 port: 8080
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
