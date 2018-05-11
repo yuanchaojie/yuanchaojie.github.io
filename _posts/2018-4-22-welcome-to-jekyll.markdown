@@ -2,8 +2,9 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2018-04-22 11:36:38 +0800
-categories: jekyll update
+
 ---
+
 #### 自定义 jekyll site
 * 在配置（_config.yml）文件中 修改title、email、description 等信息
 

@@ -29,7 +29,7 @@ blog_button:
     description: Visit blog
 # Comment
 comment:
-    disqus: vno-jekyll
+    disqus: YCJ
 
 # Pagination
 paginate: 10
