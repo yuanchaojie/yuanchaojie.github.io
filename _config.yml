@@ -19,7 +19,7 @@ email: yuanchaojie07@gmail.com
 description: 
   嗨，我是YCJ ，北京 iOS 从业人员。 擅长iOS 、小程序。 哈士奇铲屎官、歌唱爱好者  
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://yuanchaojie.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  yuanchaojie
 
@@ -29,7 +29,7 @@ blog_button:
     description: Visit blog
 # Comment
 comment:
-    disqus: YCJ
+    disqus: https://yuanchaojie.github.io/
 
 # Pagination
 paginate: 10
