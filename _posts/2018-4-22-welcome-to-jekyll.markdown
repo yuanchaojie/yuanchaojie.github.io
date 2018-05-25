@@ -5,10 +5,11 @@ date:   2018-04-22 11:36:38 +0800
 
 ---
 
-#### 自定义 jekyll site
+## 自定义 jekyll site
+
 * 在配置（_config.yml）文件中 修改title、email、description 等信息
 
-#### 安装jekyll-paginate plugin 运行 Bundler install 提示消息如下
+## 安装jekyll-paginate plugin 运行 Bundler install 提示消息如下
 > The dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x86-mswin32, x64-mingw32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java`.
 
 首先 这是个警告 不是个错误 可以忽略~
@@ -26,6 +27,13 @@ date:   2018-04-22 11:36:38 +0800
 3. Run bundle lock --add-platform mingw, mswin, x64_mingw, jruby to add mingw, mswin, x64_mingw, and jruby to the list of platforms Bundler will include in the bundle.
 
 > Each of these options would need to be carried out for each Rails application you create.
+
+## 记录安装错误：
+
+* 翻页功能（Pagination）  只有设置在html 文件中 才有效  [详情](https://jekyllrb.com/docs/pagination/)
+* 在jekyll site 上使用评论功能的[方法](https://disqus.com/admin/install/platforms/jekyll/)
+* [Liquid 语法介绍](https://shopify.github.io/liquid/basics/introduction/)
+
 
 
 
