@@ -8,9 +8,7 @@ tags:  iOS开发
 > 这篇文章主要是尝试找出cell 被遮挡的一些场景、以及引起的原因
 
 
-### 影响view content 展示 的属性
-***
-#### contentInsetAdjustmentBehavior
+### contentInsetAdjustmentBehavior
 * ScrollView iOS 11.0 之后的属性 默认值是 UIScrollViewContentInsetAdjustmentAutomatic
 
 ```
@@ -21,7 +19,7 @@ tags:  iOS开发
 定义如何适应 ScrollView的contentInset
 
 
-#### edgesForExtendedLayout 
+### edgesForExtendedLayout 
 * UIViewController iOS 7.0 之后的属性 默认值是 UIRectEdgeAll
 
 `@property(nonatomic,assign) UIRectEdge edgesForExtendedLayout NS_AVAILABLE_IOS(7_0); // Defaults to UIRectEdgeAll`
@@ -43,7 +41,7 @@ window’s root view controller 不受 这个属性影响
 	
 
 
-#### automaticallyAdjustsScrollViewInsets
+### automaticallyAdjustsScrollViewInsets
 * UIViewController 的属性 ios(7.0,11.0)  默认 YES
 
 ```
@@ -58,14 +56,14 @@ The default value of this property is YES, which lets container view controllers
 如果设置属性为YES viewController 将会 考虑系统的bars 计算scroll view insets 
 
 
-#### extendedLayoutIncludesOpaqueBars
+### extendedLayoutIncludesOpaqueBars
 * UIViewController 的属性 ios(7.0,11.0)  默认 NO
 * 属性描述
 
 如果Bars是不透明的，view不会被延伸到Bars，除非extendedLayoutIncludesOpaqueBars = YES;
 注意：Bars are translucent by default in iOS 7.0
 
-#### 相关推荐
+### 相关推荐
 ***
 * [iOS 11.0 下adjustContentInset属性的计算方式](https://www.jianshu.com/p/efbc8619d56b)
 
