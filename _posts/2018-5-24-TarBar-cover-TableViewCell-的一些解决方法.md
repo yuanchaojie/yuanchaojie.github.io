@@ -12,16 +12,20 @@ tags:  iOS开发
 ***
 #### contentInsetAdjustmentBehavior
 * ScrollView iOS 11.0 之后的属性 默认值是 UIScrollViewContentInsetAdjustmentAutomatic
+
 ```
 @property(nonatomic) UIScrollViewContentInsetAdjustmentBehavior contentInsetAdjustmentBehavior API_AVAILABLE(ios(11.0),tvos(11.0));
 ```
 * 属性描述
+
 定义如何适应 ScrollView的contentInset
 
 
 #### edgesForExtendedLayout 
 * UIViewController iOS 7.0 之后的属性 默认值是 UIRectEdgeAll
+
 `@property(nonatomic,assign) UIRectEdge edgesForExtendedLayout NS_AVAILABLE_IOS(7_0); // Defaults to UIRectEdgeAll`
+
 * 属性描述
 	
 ```
